@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onMessageEvent(PosModel event) {
-        stringBuilder.append("Farmer: " + event.getFarmer());
+        stringBuilder.append("Farmer: " + event.getFarmer()).append("\n");
         stringBuilder.append("Wolf: " + event.getWolf()).append("\n");
         stringBuilder.append("Goat: " + event.getGoat()).append("\n");
         stringBuilder.append("Cabbage: " + event.getCabbage()).append("\n");
