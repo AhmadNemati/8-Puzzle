@@ -10,7 +10,7 @@ import java.util.Stack;
 /**
  * Created by Ahmad Nemati on 10/26/2016.
  */
-public class DFSearch {
+public class Iterative {
     public static void search(int[] board, boolean d) {
         SearchNode root = new SearchNode(new EightPuzzleState(board));
         Stack<SearchNode> stack = new Stack<SearchNode>();
