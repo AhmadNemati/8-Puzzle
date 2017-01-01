@@ -9,8 +9,12 @@ An android App to solve the 8-puzzle problem with  Breath-First Search Algorithm
 * Ahmad Nemati 
  * [ahmadnemati.com](http://ahmadnemati.com) - <nematiprog@gmail.com>
  
-#تشکر ویژه از
+#Special thanks to
+Professor Peyman Sheikh Alharam Mashhadi
+
+#تشکر ویژه از 
 دکتر پیمان شیخ الحرم مشهدی
+
 
 
 
